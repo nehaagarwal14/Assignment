@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name = "TestngSuite">
- <test name = "StringSortTest">
-   <parameter name = "stringInput" value ="bharti"></parameter>
-   <classes>
-      <class name = "com.test.StringSortTest"></class>
-   </classes>
-   </test>   
-             
+   <suite name = "Testng Suite">
+   
+    <test name = "StringSortTest"> 
+       <parameter name = "stringInput" value ="bharti"></parameter> 
+       <classes> 
+          <class name = "com.test.StringSortTest"></class> 
+       </classes> 
+       </test>   
+   
+   
+     <test name = "LargestNumberInArrayTest">
+       <classes>
+          <class name = "com.test.LargestNumberInArrayTest">
+          </class>
+       </classes>
+     </test>         
  </suite> 
