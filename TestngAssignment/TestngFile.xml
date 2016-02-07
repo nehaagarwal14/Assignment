@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "TestngSuite">
+ <test name = "StringSortTest">
+   <parameter name = "stringInput" value ="bharti"></parameter>
+   <classes>
+      <class name = "com.test.StringSortTest"></class>
+   </classes>
+   </test>   
+             
+ </suite> 

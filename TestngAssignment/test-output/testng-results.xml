@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestngSuite" duration-ms="135" started-at="2016-02-07T16:50:32Z" finished-at="2016-02-07T16:50:32Z">
+    <groups>
+    </groups>
+    <test name="StringSortTest" duration-ms="135" started-at="2016-02-07T16:50:32Z" finished-at="2016-02-07T16:50:32Z">
+      <class name="com.test.StringSortTest">
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:com.test.StringSortTest@3930015a]" name="method1" duration-ms="30" started-at="2016-02-07T08:50:32Z" finished-at="2016-02-07T08:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bharti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2(java.lang.String, java.lang.String)[pri:0, instance:com.test.StringSortTest@3930015a]" name="method2" duration-ms="1" started-at="2016-02-07T08:50:32Z" data-provider="data" finished-at="2016-02-07T08:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bharti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abhirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- com.test.StringSortTest -->
+    </test> <!-- StringSortTest -->
+  </suite> <!-- TestngSuite -->
+</testng-results>
