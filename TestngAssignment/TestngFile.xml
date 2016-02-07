@@ -14,5 +14,12 @@
           <class name = "com.test.LargestNumberInArrayTest">
           </class>
        </classes>
-     </test>         
+     </test>    
+     
+     <test name = "FactorialRecursionTest">
+       <classes>
+          <class name = "com.test.FactorialRecursionTest">
+          </class>
+       </classes>
+     </test>      
  </suite> 
