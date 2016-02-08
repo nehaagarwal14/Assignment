@@ -16,5 +16,13 @@ public class FactorialRecursionTest {
 		assertEquals(expected,actual);
 		
 	}
+	@Test
+	public void metod2(){		
+		int num = 0;
+		FactorialRecursion fr = new FactorialRecursion();
+		int expected = 1;
+		int actual = fr.recur(num);
+		assertEquals(expected,actual);
+	}	
 
 }
