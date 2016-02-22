@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "NewFrameworkTestSuite">
+<test name = "functest">
+<classes>
+ <class name = "Test.pages.HomePageTest"></class>
+<class name = "Test.pages.LoginPageTest"></class>
+</classes>
+</test>
+</suite>

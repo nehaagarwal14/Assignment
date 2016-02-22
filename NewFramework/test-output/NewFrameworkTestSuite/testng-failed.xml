@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewFrameworkTestSuite]">
+  <test name="functest(failed)">
+    <classes>
+      <class name="Test.pages.LoginPageTest">
+        <methods>
+          <include name="performLogin"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test.pages.LoginPageTest -->
+      <class name="Test.pages.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test.pages.HomePageTest -->
+    </classes>
+  </test> <!-- functest(failed) -->
+</suite> <!-- Failed suite [NewFrameworkTestSuite] -->

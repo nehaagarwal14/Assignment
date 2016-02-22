@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewFrameworkTestSuite" duration-ms="11414" started-at="2016-02-22T07:57:16Z" finished-at="2016-02-22T07:57:28Z">
+    <groups>
+    </groups>
+    <test name="functest" duration-ms="11414" started-at="2016-02-22T07:57:16Z" finished-at="2016-02-22T07:57:28Z">
+      <class name="Test.pages.LoginPageTest">
+        <test-method status="FAIL" signature="initialize()[pri:0, instance:Test.pages.LoginPageTest@13b6d03]" name="initialize" is-config="true" duration-ms="0" started-at="2016-02-21T23:57:28Z" finished-at="2016-02-21T23:57:28Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pages.LoginPage.<init>(LoginPage.java:12)
+	at Test.pages.LoginPageTest.initialize(LoginPageTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="performLogin()[pri:0, instance:Test.pages.LoginPageTest@13b6d03]" name="performLogin" duration-ms="0" started-at="2016-02-21T23:57:28Z" finished-at="2016-02-21T23:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+      </class> <!-- Test.pages.LoginPageTest -->
+      <class name="Test.pages.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.pages.HomePageTest@282ba1e]" name="setup" is-config="true" duration-ms="12463" started-at="2016-02-21T23:57:04Z" finished-at="2016-02-21T23:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Test.pages.HomePageTest@282ba1e]" name="initialize" is-config="true" duration-ms="9916" started-at="2016-02-21T23:57:16Z" finished-at="2016-02-21T23:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="countSocialIcons()[pri:0, instance:Test.pages.HomePageTest@282ba1e]" name="countSocialIcons" duration-ms="151" started-at="2016-02-21T23:57:26Z" finished-at="2016-02-21T23:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSocialIcons -->
+        <test-method status="PASS" signature="testloginClick()[pri:0, instance:Test.pages.HomePageTest@282ba1e]" name="testloginClick" duration-ms="1317" started-at="2016-02-21T23:57:26Z" finished-at="2016-02-21T23:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginClick -->
+      </class> <!-- Test.pages.HomePageTest -->
+    </test> <!-- functest -->
+  </suite> <!-- NewFrameworkTestSuite -->
+</testng-results>
